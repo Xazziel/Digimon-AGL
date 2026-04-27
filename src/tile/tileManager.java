@@ -1,5 +1,8 @@
 package tile;
 
-public class tileManager {
+import main.GamePanel;
 
+public class tileManager {
+	GamePanel gp;
+	Tile[] tile;
 }

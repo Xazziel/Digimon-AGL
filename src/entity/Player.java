@@ -1,7 +1,6 @@
 package entity;
 
-import java.awt.Color;
-import java.awt.Graphics;
+
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
@@ -27,7 +26,7 @@ public class Player extends Entity{
 	public void setDefaultValues() {
 		x=100;
 		y=120;
-		speed=4;
+		speed=6;
 		direction = "up";
 	}
 	
